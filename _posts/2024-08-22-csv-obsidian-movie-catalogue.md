@@ -12,7 +12,7 @@ hundreds or thousands of .md files. There's gotta be something else for storing 
 Well, I managed to do it using a single CSV file, and here's how:
 
 # The initial setup
-You can pretty much follow this tutorial up to 05m 50s: [https://www.youtube.com/watch?v=t-hKCgGhQuk]. If you also want
+You can pretty much follow this tutorial up to 05m 50s: [https://www.youtube.com/watch?v=t-hKCgGhQuk](https://www.youtube.com/watch?v=t-hKCgGhQuk). If you also want
 to have a traditional note-based DB (that is, a single note for every movie/tv series) - do exactly as he says. If you only
 want the CSV solution, you can skip everything relating to 'Templater' plugin. Now, there are a couple of modifications we need
 to make in the movies.js script.
@@ -54,7 +54,7 @@ Finally, at the end of the start function just add `await appendToCSV(selectedSh
 # Displaying the data
 
 Great, so now the data should be appended to your CSV file, but is there any way to display it? Yes there is!
-I've found this helpful script for rendering interactive tables in Obsidian here: [https://github.com/anareaty/obsidian-snippets/blob/main/Dataview-interactive-tables/dvit-info-en.md].
+I've found this helpful script for rendering interactive tables in Obsidian here: [https://github.com/anareaty/obsidian-snippets/blob/main/Dataview-interactive-tables/dvit-info-en.md](https://github.com/anareaty/obsidian-snippets/blob/main/Dataview-interactive-tables/dvit-info-en.md).
 
 1. You have to install the 'Dataview' community plugin
 2. In the 'Dataview' plugin options toggle 'Enable JavaScript Queries'
