@@ -106,10 +106,6 @@ td {
 }
 
 code {
-  background-color: cornsilk;
-}
-
-code {
   .w {
     color: #777;
   }
@@ -543,6 +539,7 @@ div.highlighter-rouge code {
   overflow-x: auto;
   white-space: pre-wrap;
   padding: 1rem;
+  background-color: cornsilk;
 }
 
 blockquote {
