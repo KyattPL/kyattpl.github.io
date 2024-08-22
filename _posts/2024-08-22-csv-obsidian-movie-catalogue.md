@@ -32,7 +32,7 @@ const CSV_FILE_PATH = path.join(app.vault.adapter.basePath, 'movies-series-db.cs
 ```
 
 Then, at the bottom of the file I make a new function that will append a new row to this CSV file. I might have some extra properties like 'totalSeasons'
-that I've edited in myself so if you have the default script REMOVE THE `${movieData.totalSeasons}` PART.
+that I've edited in myself so if you have the default script REMOVE THE `${movieData.totalSeasons}`{:.js} PART.
 
 ```js
 async function appendToCSV(movieData) {
@@ -47,7 +47,7 @@ async function appendToCSV(movieData) {
 }
 ```
 
-Finally, at the end of the start function just add `await appendToCSV(selectedShow);`.
+Finally, at the end of the start function just add `await appendToCSV(selectedShow);`{:.js}.
 
 !!! Before you run the script I think you have to manually create your CSV file with the exact name and columns that you've used above !!!
 
@@ -158,15 +158,15 @@ structure that resembles the obsidian note (especially the file: {path, name}), 
 
 Workarounds:
 1. If you have a numeric field that you want to filter (filtering means choosing the exact value pretty much), then
-inside the returned object write property: `${movie.XYZ}`, where XYZ is the csv header of that column. This will cast the numbers
+inside the returned object write property: `${movie.XYZ}`{:.js}, where XYZ is the csv header of that column. This will cast the numbers
 to strings so you can filter it.
 2. If you have fields such as genres or countries, that have a couple strings that repeat in many rows (that is, a movie title is pretty unique
 but 'Fantasy' genre can of course apply to many films) AND that should be split apart (that is, no matter if movie is 'Fantasy & Action' or 
 'Fantasy & Comedy' you would want to only filter 'Fantasy')... follow this:
 - you can do something similar to me in the script above for country/genre, by that I mean split up your string and leave with an array of items
     (for example ['Fantasy', 'Action']).
-- then you have to open the 'interactive-tables.js' file, find the 'getPropType' function (~421 line) and after `prop=="aliases"` add
-    `|| prop == "XYZ"` where XYZ is the EXACT key used in the return object 
-    (that is when I used `country: movie.country.split(',').map(c => '${c.trim()}'),` above, my key would be 'country').
+- then you have to open the 'interactive-tables.js' file, find the 'getPropType' function (~421 line) and after `prop=="aliases"`{:.js} add
+    `|| prop == "XYZ"`{:.js} where XYZ is the EXACT key used in the return object 
+    (that is when I used `country: movie.country.split(',').map(c => '${c.trim()}'),`{:.js} above, my key would be 'country').
 
 Phew! That was a lot... With a couple of trials and errors you can work it out.
