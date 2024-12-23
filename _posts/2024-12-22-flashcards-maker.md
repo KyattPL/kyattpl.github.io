@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Flashcards maker from your text data"
-category: generic
+categories: [Generic]
 ---
 
 # The problem
