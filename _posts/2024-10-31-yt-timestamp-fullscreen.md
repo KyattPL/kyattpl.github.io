@@ -1,6 +1,7 @@
 ---
+layout: post
 title: "YT Fullscreen player with manual timestamp input"
-categories: [Generic]
+category: generic
 ---
 
 # The problem
