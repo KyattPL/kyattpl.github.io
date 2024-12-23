@@ -1,6 +1,7 @@
 ---
 title: "YT Fullscreen player with manual timestamp input"
-categories: [Generic]
+categories: [Coding, Project]
+tags: [coding, project, js, html, css, youtube]
 media_subpath: /assets/img/
 ---
 

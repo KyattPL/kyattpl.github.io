@@ -1,6 +1,7 @@
 ---
 title: "Flashcards maker from your text data"
-categories: [Generic]
+categories: [Coding, Project]
+tags: [coding, project, nextjs, shadcn]
 ---
 
 # The problem

@@ -4,5 +4,12 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# About me
+Hello! I'm Kajetan "Kyatt" Pynka, a graduate with a Master's degree in Computer Science 
+from Wrocław University of Science and Technology. My portfolio is hosted at:
+[https://kyattpl.github.io/portfolio/](https://kyattpl.github.io/portfolio/)
+
+# Socials
+- X: [https://x.com/KyattPL](https://x.com/KyattPL)
+- Youtube: [https://www.youtube.com/@kyatt_](https://www.youtube.com/@kyatt_)
+- GitHub: [https://github.com/KyattPL](https://github.com/KyattPL)

@@ -1,6 +1,7 @@
 ---
 title: "CSV Obsidian Movie/TV series catalogue"
-categories: [Generic]
+categories: [Coding, Obsidian, Movies, TV-series]
+tags: [coding, obsidian, movies, tvseries, js, csv]
 ---
 
 # The Problem
