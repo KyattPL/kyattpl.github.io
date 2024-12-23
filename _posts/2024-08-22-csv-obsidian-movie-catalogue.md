@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "CSV Obsidian Movie/TV series catalogue"
-category: generic
+categories: [Generic]
 ---
 
 # The Problem

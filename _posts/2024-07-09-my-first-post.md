@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "My first post"
-category: generic
+categories: [Generic]
 ---
 
 Nothing else to say right now anyway... but it shows when I started this site :)
