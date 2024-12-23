@@ -1,7 +1,7 @@
 ---
 title: "YT Fullscreen player with manual timestamp input"
 categories: [Generic]
-media_subpath: /assets/imgs/
+media_subpath: /assets/img/
 ---
 
 # The problem
