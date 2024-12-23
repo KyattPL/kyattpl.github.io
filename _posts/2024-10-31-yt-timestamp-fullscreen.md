@@ -2,6 +2,7 @@
 layout: post
 title: "YT Fullscreen player with manual timestamp input"
 category: generic
+media_subpath: /assets/img/posts/
 ---
 
 # The problem
@@ -11,7 +12,7 @@ Then you're in the right place!
 
 # How it looks
 
-![image of the player]({% link assets/imgs/2024-10-31-yt-1.png %})
+![Image of the player](2024-10-31-yt-1.png){: w="700"}
 
 # Where to access it
 Hosted at: [https://kyattpl.github.io/yt-timestamp-player/](https://kyattpl.github.io/yt-timestamp-player/)
