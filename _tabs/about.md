@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About me
+# Me
 Hello! I'm Kajetan "Kyatt" Pynka, a graduate with a Master's degree in Computer Science 
 from Wrocław University of Science and Technology. My portfolio is hosted at:
 [https://kyattpl.github.io/portfolio/](https://kyattpl.github.io/portfolio/)
