@@ -8,11 +8,11 @@ tags: [coding, project]
 
 Watching videos in a foreign language can be challenging, especially when subtitles are not available in your preferred language. Whether you're a language learner, an international film enthusiast, or someone who frequently watches educational content in multiple languages, subtitles play a crucial role in understanding and enjoyment. However, finding accurate subtitles in the desired language is often difficult, and machine-translated captions on platforms like YouTube can be unreliable.
 
-This is where our **Subtitle Translator** project comes in handy. It provides an easy-to-use solution for translating subtitles on any video file, ensuring a seamless viewing experience with accurate translations.
+This is where my **Subtitle Translator** project comes in handy. It provides an easy-to-use solution for translating subtitles on any video file, ensuring a seamless viewing experience with accurate translations.
 
 # Subtitle Translator: A Simple Solution
 
-Our project allows users to translate subtitles for videos using LibreTranslate. This tool ensures that subtitles are accurately converted from one language to another, making content accessible to a wider audience.
+This project allows users to translate subtitles for videos using LibreTranslate. This tool ensures that subtitles are accurately converted from one language to another, making content accessible to a wider audience.
 
 ## How It Works
 
@@ -61,4 +61,4 @@ Replace `<lang_codes>` with the language codes you want to support (e.g., `fr`, 
 # Try It Out
 This project is open-source and free to use! Check out the full repository on GitHub and contribute to improving subtitle translations for everyone.
 
-🔗 **GitHub Repository:** [GitHub Link](<repo_url>)
+🔗 **GitHub Repository:** [GitHub Link](https://github.com/KyattPL/subtitle-translate-player)
