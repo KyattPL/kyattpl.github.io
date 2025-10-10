@@ -5,5 +5,5 @@ icon: fas fa-newspaper
 order: 1
 
 pagination:
-    enabled
+    enabled: true
 ---
