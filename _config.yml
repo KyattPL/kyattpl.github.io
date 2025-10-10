@@ -148,8 +148,6 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
-
 # The base URL of your site
 baseurl: ""
 
@@ -225,3 +223,17 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+
+pagination:
+  enabled: true
+  per_page: 10 # This replaces 'paginate: 10'
+  permalink: /page/:num/
+  autopages:
+    enabled: true
+    layouts:
+      - 'post-list.html'
+    title: ' - Page :num'
