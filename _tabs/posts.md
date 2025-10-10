@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: posts
 title: Posts
 icon: fas fa-newspaper
 order: 1
