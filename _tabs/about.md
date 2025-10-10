@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 
 # Me
@@ -13,3 +13,4 @@ from Wrocław University of Science and Technology. My portfolio is hosted at:
 - X: [https://x.com/KyattPL](https://x.com/KyattPL)
 - Youtube: [https://www.youtube.com/@kyatt_](https://www.youtube.com/@kyatt_)
 - GitHub: [https://github.com/KyattPL](https://github.com/KyattPL)
+- Twitch: [https://twitch.tv/kyatt_](https://twitch.tv/kyatt_)
