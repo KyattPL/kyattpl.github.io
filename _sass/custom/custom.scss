@@ -1,0 +1,45 @@
+/* _sass/custom/custom.scss */
+
+#project-list {
+  .card {
+    // --- THEME-AWARE STYLES ---
+    background: var(--card-bg);
+    text-decoration: none; // Remove underline from the link
+
+    // 1. ADD BORDER
+    // This uses the theme's variable for borders, so it adapts to light/dark mode.
+    border: 1px solid var(--main-border-color);
+
+    // 2. ADD TRANSITION
+    // This makes the hover effect smooth instead of instant.
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+
+  // 3. DEFINE HOVER STATE
+  // This block defines what happens when the user's mouse is over the card.
+  .card:hover {
+    // Use the theme's specific variable for the card's hover background color.
+    background: var(--card-hover-bg);
+
+    // Also change the border color on hover for a nice, polished effect.
+    border-color: var(--card-hover-border-color);
+  }
+
+  .card-img-top {
+    // --- IMAGE SCALING ---
+    width: 100%;
+    height: 200px; // You can adjust this height if you like
+    object-fit: cover;
+  }
+
+  .card-body {
+    // --- TEXT COLORS ---
+    .card-title {
+      color: var(--heading-color);
+    }
+    .card-text,
+    .post-meta {
+      color: var(--text-muted-color);
+    }
+  }
+}
