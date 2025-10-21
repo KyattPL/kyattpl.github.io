@@ -1,15 +1,29 @@
-- name: Project Alpha
-  image: /assets/img/logo.png
-  description: "A brief and engaging description of Project Alpha, highlighting its main purpose and the technologies used."
-  url: https://github.com/KyattPL/masters-backup
-  repo: KyattPL/masters-backup # Optional
+- name: RabbitMQ Microservices
+  image: /assets/img/projects/isi-projekt.png
+  description: "The League of Legends Historical Game Data System is a comprehensive software solution designed to provide detailed historical information about matches played in the game League of Legends."
+  url: https://github.com/KyattPL/isi-projekt
+  repo: KyattPL/isi-projekt
 
-- name: Project Beta
-  image: /assets/img/logo.png
-  description: "An overview of Project Beta, what problem it solves, and what makes it special. Keep it concise."
-  url: https://github.com/KyattPL/masters-backup
-  repo: KyattPL/masters-backup # Optional
+- name: MeetApp
+  image: /assets/img/projects/meetapp.png
+  description: "A meeting-based social network web app for the University ZPI project. Made using Svelte, Spring Boot, WebSocket and OSM map integration."
+  url: https://github.com/KyattPL/MeetApp-GPS
+  repo: KyattPL/MeetApp-GPS
 
-- name: Another Cool Project
-  description: "This project doesn't have an image, but the description is compelling enough to make you want to click."
-  url: https://example.com
+- name: Po Odznakę
+  image: /assets/img/projects/po-odznake.png
+  description: "The GOT Route Management System is a database-driven software solution designed to manage and maintain data related to trail segments that qualify for the Górska Odznaka Turystyczna (GOT)."
+  url: https://github.com/KyattPL/Po-Odznake
+  repo: KyattPL/Po-Odznake
+
+- name: Master's thesis
+  image: /assets/img/projects/thesis.png
+  description: "This work investigated the potential of utilizing large language models (LLMs) to enhance narrative quality and player engagement in visual novel-style games."
+  url: https://github.com/KyattPL/masters-backup
+  repo: KyattPL/masters-backup
+
+- name: Soulsborne tracker
+  image: /assets/img/projects/soulsborne.png
+  description: "This project is a web-based tracker that helps players manage their progress in Soulsborne games. Tech Stack: Next.js, TS, Tailwind, Motion, ShadCN."
+  url: https://kyattpl.github.io/soulsborne-tracker
+  repo: KyattPL/soulsborne-tracker
