@@ -34,8 +34,8 @@ The application is split into two main sections: the Tierlist Dashboard and the 
 - **Dark/Light Theme**: A modern theme toggle that respects system preferences and saves user choice.
 
 # Where to access it
-Project available on GitHub: `[https://github.com/KyattPL/my-tierlists-ranking](https://github.com/KyattPL/my-tierlists-ranking)`
-Website available at: `[https://kyattpl.github.io/my-tierlists-ranking/](https://kyattpl.github.io/my-tierlists-ranking/)`
+Project available on GitHub: [https://github.com/KyattPL/my-tierlists-ranking](https://github.com/KyattPL/my-tierlists-ranking)
+Website available at: [https://kyattpl.github.io/my-tierlists-ranking/](https://kyattpl.github.io/my-tierlists-ranking/)
 
 # Use cases
 
